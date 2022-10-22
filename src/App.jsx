@@ -1,12 +1,13 @@
 import { useState } from "react";
 import "./App.css";
+import Registrar from "./pages/Registrar";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <div className="App">
-      <h1 className="text-3xl font-bold underline">Centro de Convenciones</h1>
+    <div>
+      <Registrar />
     </div>
   );
 }

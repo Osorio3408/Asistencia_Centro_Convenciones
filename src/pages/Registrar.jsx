@@ -49,12 +49,12 @@ const Registrar = () => {
               placeholder="Repetir contraseña"
             />
 
-            <div className="botones">
+            <div className="botones mb-28 ">
               <button className="bg-sky-900 hover:bg-sky-800 text-teal-200 p-2 rounded-lg w-24 mt-4 ">
                 Enviar
               </button>
               <button className="bg-sky-900 hover:bg-sky-800 text-teal-200 p-2 rounded-lg w-24 mt-4 ">
-                Volver
+                <a href="/">Volver</a>
               </button>
             </div>
           </form>

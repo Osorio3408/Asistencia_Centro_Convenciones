@@ -9,7 +9,7 @@ const Footer_login = () => {
         </span>
         <ul class="flex flex-wrap items-center mt-3 justify-center text-sm text-gray-500 dark:text-teal-100 sm:mt-0">
           <li>
-            <a href="#" class="mr-4 hover:underline md:mr-6 ">
+            <a href="/" class="mr-4 hover:underline md:mr-6 ">
               ¿No tienes cuenta?
             </a>
           </li>

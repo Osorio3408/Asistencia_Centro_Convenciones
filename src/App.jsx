@@ -2,13 +2,17 @@ import { useState } from "react";
 import "./App.css";
 import Login from "./pages/Login";
 import Registrar from "./pages/Registrar";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <div>
-      <Login />
+      <Router>
+        <Routes>
+          <Route path="/" element={<Registrar />} />
+          <Route path="/login" element={<Login />} />
+        </Routes>
+      </Router>
     </div>
   );
 }

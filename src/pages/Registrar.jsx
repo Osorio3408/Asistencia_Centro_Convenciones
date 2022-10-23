@@ -8,7 +8,7 @@ const Registrar = () => {
     <>
       <Navbar_register />
       <div className="">
-        <div className="image_header     w-36 mx-auto">
+        <div className="image_header mt-4 w-36 mx-auto">
           <img src={logo} alt="" />
         </div>
         <div className="form  w-100 shadow-2xl h-px">
@@ -49,9 +49,14 @@ const Registrar = () => {
               placeholder="Repetir contraseña"
             />
 
-            <button className="bg-sky-900 hover:bg-sky-800 text-teal-200 p-2 rounded-lg w-24 mt-4 ">
-              Enviar
-            </button>
+            <div className="botones">
+              <button className="bg-sky-900 hover:bg-sky-800 text-teal-200 p-2 rounded-lg w-24 mt-4 ">
+                Enviar
+              </button>
+              <button className="bg-sky-900 hover:bg-sky-800 text-teal-200 p-2 rounded-lg w-24 mt-4 ">
+                Volver
+              </button>
+            </div>
           </form>
         </div>
       </div>

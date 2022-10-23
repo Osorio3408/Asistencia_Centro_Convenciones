@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./App.css";
+import Login from "./pages/Login";
 import Registrar from "./pages/Registrar";
 
 function App() {
@@ -7,7 +8,7 @@ function App() {
 
   return (
     <div>
-      <Registrar />
+      <Login />
     </div>
   );
 }

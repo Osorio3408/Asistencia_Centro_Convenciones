@@ -2,6 +2,7 @@ import React from "react";
 import Footer_login from "../components/Footer_login";
 import Navbar_login from "../components/Navbar_login";
 import logo from "../assets/logo.png";
+import { Link } from "react-router-dom";
 
 const Login = () => {
   return (
@@ -29,7 +30,7 @@ const Login = () => {
                 Enviar
               </button>
               <button className="bg-sky-900 hover:bg-sky-800  text-teal-200 p-2 rounded-lg w-24 mt-4 ">
-                <a href="/">Volver</a>
+                <Link to="/">Volver</Link>
               </button>
             </div>
           </form>

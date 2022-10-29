@@ -1,5 +1,6 @@
 import logo from "../assets/logo.png";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   let Links = [
@@ -31,11 +32,11 @@ const Header = () => {
           }`}>
           {Links.map((link) => (
             <li key={link.name} className="md:ml-8 text-xl md:my-0 my-7">
-              <a
-                href={link.href}
+              <Link
+                to={link.href}
                 className="text-white hover:text-lime-400 duration-500">
                 {link.name}
-              </a>
+              </Link>
             </li>
           ))}
         </ul>

@@ -16,12 +16,12 @@ const Login = () => {
           <form action="" className="flex flex-col justify-center items-center">
             <input
               type="email"
-              className="w-56 border-solid border-2 mb-5 border-black rounded-md placeholder:italic placeholder:text-slate-400"
+              className="w-56 h-10 border-solid border-2 mb-5 border-black rounded-md placeholder:italic placeholder:text-slate-400"
               placeholder="Correo electonico..."
             />
             <input
               type="password"
-              className="w-56 mb-10 mt-4 border-solid border-2 border-black rounded-md placeholder:italic placeholder:text-slate-400"
+              className="w-56 h-10 mb-10 mt-4 border-solid border-2 border-black rounded-md placeholder:italic placeholder:text-slate-400"
               placeholder="Contraseña..."
             />
 

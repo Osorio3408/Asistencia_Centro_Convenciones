@@ -3,9 +3,9 @@ import { useState } from "react";
 
 const Header = () => {
   let Links = [
-    { name: "Inicio", link: "/" },
-    { name: "Registro", link: "/register" },
-    { name: "Iniciar Sesión", link: "/login" },
+    { name: "Inicio", href: "/" },
+    { name: "Registro", href: "/register" },
+    { name: "Iniciar Sesión", href: "/login" },
   ];
   let [open, setOpen] = useState(false);
   return (
@@ -32,7 +32,7 @@ const Header = () => {
           {Links.map((link) => (
             <li key={link.name} className="md:ml-8 text-xl md:my-0 my-7">
               <a
-                href={link.link}
+                href={link.href}
                 className="text-white hover:text-lime-400 duration-500">
                 {link.name}
               </a>

@@ -3,6 +3,7 @@ import Footer_login from "../components/Footer_login";
 import Navbar_login from "../components/Navbar_login";
 import logo from "../assets/logo.png";
 import { Link } from "react-router-dom";
+import "../css/style.css"
 
 const Login = () => {
   return (

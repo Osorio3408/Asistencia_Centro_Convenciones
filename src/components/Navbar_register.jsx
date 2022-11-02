@@ -3,7 +3,7 @@ import React from "react";
 const Navbar_register = () => {
   return (
     <>
-      <nav className="w-100 bg-sky-900 m-0 h-20">
+      <nav className="border-2 border-sky-900 border-b-white  w-100 bg-sky-900 m-0 h-20">
         <div className="">
           <div className=" items-center justify-between">
             <h1 className="text-center text-lg pt-2 text-teal-100">

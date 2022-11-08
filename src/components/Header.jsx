@@ -7,6 +7,7 @@ const Header = () => {
     { name: "Inicio", href: "/" },
     { name: "Registro", href: "/register" },
     { name: "Iniciar Sesión", href: "/login" },
+    { name: "Enventos", href: "/events" },
   ];
   let [open, setOpen] = useState(false);
   return (

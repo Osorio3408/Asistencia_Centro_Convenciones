@@ -11,8 +11,8 @@ const Header = () => {
   ];
   let [open, setOpen] = useState(false);
   return (
-    <div className="m-0 shadow-md w-full sticky top-0 left-0 bg-sky-900">
-      <div className=" md:flex items-center justify-between py-4 md:px-10 px-7">
+    <div className="z-40 m-0 shadow-md w-full sticky top-0 left-0 bg-sky-900">
+      <div className=" md:sticky items-center justify-between py-4 md:px-10 px-7">
         <div className="justify-center text-xl  font-semibold cursor-pointer flex items-center">
           <span className="relative right-10 pt-2">
             <img src={logo} alt="logo" className=" w-20 h-20" />
